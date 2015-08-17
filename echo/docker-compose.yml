@@ -1,0 +1,4 @@
+echo-service:
+    build: .
+    entrypoint: /bin/echo
+    command: "Hello Docker!"
